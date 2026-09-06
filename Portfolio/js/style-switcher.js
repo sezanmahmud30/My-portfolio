@@ -38,14 +38,27 @@ dayNight.addEventListener("click", () => {
   document.body.classList.toggle("dark");
 })
 
-window.addEventListener("load", () => {
-  if (document.body.classList.contains("dark"))
-  {
-    dayNight.querySelector("i").classList.add("fa-sun");
-  }
-  else
-  {
-    dayNight.querySelector("i").classList.add("fa-moon");
-  }
-})
+// window.addEventListener("load", () => {
+//   if (document.body.classList.contains("dark"))
+//   {
+//     dayNight.querySelector("i").classList.add("fa-sun");
+//   }
+//   else
+//   {
+//     dayNight.querySelector("i").classList.add("fa-moon");
+//   }
+// })
 
+
+/*================ Default dark mode =============== */
+
+
+window.addEventListener("load", () => {
+
+    // Default theme: Dark Mode
+    document.body.classList.add("dark");
+
+    // Show sun icon because clicking it will switch to light mode
+    dayNight.querySelector("i").classList.add("fa-sun");
+
+})
