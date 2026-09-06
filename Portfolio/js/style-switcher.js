@@ -38,6 +38,8 @@ dayNight.addEventListener("click", () => {
   document.body.classList.toggle("dark");
 })
 
+/*================ Default white mode =============== */
+
 // window.addEventListener("load", () => {
 //   if (document.body.classList.contains("dark"))
 //   {
