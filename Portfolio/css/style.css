@@ -817,13 +817,13 @@ h3.my-profession
         margin-left: 0;
     } */
 
-    .nav-toggler
+    .aside .nav-toggler
     {
         display: flex;
         left: 30px;
     }
 
-    .nav-toggler.open
+    .aside .nav-toggler.open
     {
         left: 300px;
     }
@@ -870,7 +870,7 @@ h3.my-profession
 {
     .contact .contact-form .col-6,
     .contact .contact-info-item,
-    .portfolio.portfolio-item,
+    .portfolio .portfolio-item,
     .service .service-item,
     .about .about-content .experience,
     .about .about-content .education,
